@@ -1,0 +1,88 @@
+/* Start Base Style */
+*{
+	text-align: left;
+    font-size: 1rem;
+	font-family: "Times New Roman", Times, serif;
+}
+body{
+	background:#ffffff !important;
+	color: #17171d !important
+}
+a ~ .navbar,a:hover ~ .navbar,a:active ~ .navbar,a:focus ~ .navbar{
+    text-decoration: none!important;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-weight: bold;
+    border-right: 2px solid;
+    padding-right: 15px;
+}
+#Form{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 15%;
+	border: 5px solid #2980b9;
+}
+#Form h2{
+	font-weight: bold;
+	text-align: center;
+	color: #2980b9;
+	padding: 10px;
+	font-size: 2.5rem;
+}
+#Form input{
+	border-radius: 0px;
+	border-left: 2px solid #2980b9;
+	transition: .2s;
+}
+#Form input:focus{
+	border-left: 5px solid #2980b9;
+}
+#Form button{
+	border-radius: 0px;
+	background-color: #2980b9!important;
+	border-color: #2980b9!important;
+}
+
+.dash{
+	
+}
+.dash h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 4rem;
+	margin-top: 1rem;
+	margin-bottom: .2rem;
+	color: #343a40bd;
+}
+.dash hr{
+	margin: 3px 0 20px 0;
+	border-top: 2px solid rgba(0,0,0,.1);
+}
+.dash .cards{
+	
+}
+.dash .cards .cardSec:hover{
+	box-shadow: 1px 1px 1px #0b69a8;
+}
+.dash .cards .cardSec{
+	cursor: pointer;
+	padding: 10px 20px;
+	background: #3498db;
+	color: #fff;
+	border-radius: 5px;
+	margin: 5px;
+	text-align: center;
+	font-weight: bold;
+	box-shadow: 3px 3px 5px #0b69a8;
+	transition: .2s;
+}
+.dash .cards .cardSec i{
+	font-size: 3.5rem;
+    text-align: center;
+}
+.dash .cards .cardSec label{
+	cursor: pointer;
+	font-size: 2rem;
+	text-align: center;
+}
